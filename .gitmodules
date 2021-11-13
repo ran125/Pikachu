@@ -1,0 +1,3 @@
+[submodule "Pikachu/vendor/spdlog"]
+	path = Pikachu/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
