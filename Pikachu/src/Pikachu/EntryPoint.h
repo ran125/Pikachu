@@ -7,10 +7,8 @@ int main(int argc, char** argv) {
 	PK_CORE_WARN("Initialized Log");
 	//Pikachu::Log::GetCoreLogger()->warn("Initialized Log");
 	//Pikachu::Log::GetClientLogger()->info("hello");
-	int a = 5;
-	PK_INFO("hellow Var = {0}", a);
-
-
+	//int a = 5;
+	//PK_INFO("hellow Var = {0}", a);
 	auto app = Pikachu::CreateApplication();
 	app->Run();
 	delete app;
